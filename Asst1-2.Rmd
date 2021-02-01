@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE, message = TRUE)
 ```
 
-**Due Sunday, February 9 @ midnight through Github**
+**Due Sunday, February 7 @ midnight through Github**
 
 Improve your data display and fit a logistic regression to using the NMES data to answer:
 
@@ -48,7 +48,7 @@ nmes_data <- read_csv("nmesUNPROC.csv")
 
 Write your text here.
 
-5. As discussed in class, fit a logistic regression model to address question the question and interpret the results. Remember to use the function `glm` as shown in the slides from today's class.
+5. As discussed in class, fit a logistic regression model to address question the question and interpret the results. Remember to use the function `glm` as shown in the notes from today's class.
 
 ```{r}
 # code for logistic regression
@@ -57,11 +57,13 @@ Write your text here.
 
 Write your interpretation text here.
 
-6. When you are ready to submit your assignment, do ALL of the following:
+6. When you have a your data display and logistic model ready to go, take a screenshot of your display and your model results and post on Piazza under the "Assignment 1-2 Results" thread.  You are welcome to post your screenshot anonymously to your classmates.
+
+7. When you are ready to submit your assignment, do ALL of the following:
 
 * First, knit your .Rmd file to see if it will compile.  If it doesn't knit, you can still follow the steps below to submit your assignment, but please try to resolve the knitting issues before you submit.  You can reach out to use at phbiostats@jhu.edu for help!
 * Next you need to **commit** the changes you've made to the document.  Click the colorful Git button at the top of the RStudio window and select "Commit" from the menu.
-* In the window that opens, **stage** your changes by clicking the check boxes next to the `Asst1-1.Rmd` and `Asst1-1.html` files.
+* In the window that opens, **stage** your changes by clicking the check boxes next to the `Asst1-2.Rmd` file.
 * In the "Commit message" box, type a short description of what changes you've made, something like: `Completed assignment`
 * Click the "Commit" button on the bottom right.
 * You'll see a window that will tell you about the changes that you've made.  Click "Close" to close the window.  You've successfully committed! You can close this commit window now.
