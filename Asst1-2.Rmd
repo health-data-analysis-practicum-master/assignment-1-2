@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE, message = TRUE)
 ```
 
-**Due Sunday, February 7 @ midnight through Github**
+**Due Sunday, February 6, 2022 @ midnight through Github**
 
 Improve your data display and fit a logistic regression to using the NMES data to answer:
 
@@ -48,7 +48,7 @@ nmes_data <- read_csv("nmesUNPROC.csv")
 
 Write your text here.
 
-5. As discussed in class, fit a logistic regression model to address question the question and interpret the results. Remember to use the function `glm` as shown in the notes from today's class.
+5. As discussed in class, fit a logistic regression model to address question the question and interpret the results. Remember to use the function `glm` as shown in the notes from Wednesday's class.
 
 ```{r}
 # code for logistic regression
